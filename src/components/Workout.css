@@ -1,0 +1,87 @@
+.workout-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.workout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 15px;
+}
+
+.workout-header h1 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.back-link {
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #6a5acd;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.exercise-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.exercise-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.exercise-card {
+   background-color: #fff3df;
+  border-radius: 12px;
+  padding: 16px 18px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Make whole card clickable & remove blue link */
+.exercise-link {
+  display: flex;
+  flex-direction: column;        /* 👈 vertical spacing */
+  gap: 8px;                      /* 👈 spacing between name & reps */
+
+  text-decoration: none;         /* 👈 removes underline */
+  color: #000;                   /* 👈 removes blue */
+}
+
+.exercise-link:visited {
+  color: #000;
+}
+
+.exercise-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.exercise-name {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.exercise-meta {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.not-found {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5rem;
+}

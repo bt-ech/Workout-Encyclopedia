@@ -1,0 +1,49 @@
+/* App layout (NOT text centering) */
+.App {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Center only the main heading */
+.App h1 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+/* Link wrapper */
+.workout-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+/* remove visited color */
+.workout-link:visited {
+  color: inherit;
+}
+
+/* hover animation */
+.workout-link:hover {
+  transform: scale(1.02);
+}
+
+/* card hover styling */
+.workout-link:hover .card-container {
+  background-color: #f3e6d4;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* card base styling */
+.card-container {
+  padding: 18px 24px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  background-color: #faecd9;
+
+  text-align: left;          /* 🔑 THIS fixes the overflow feeling */
+  line-height: 1.4;
+
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
