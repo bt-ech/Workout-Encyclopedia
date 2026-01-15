@@ -88,7 +88,6 @@ The app will run on:
 
 ![workout-description](screenshots/workout-description.png)
 
-
 🎯 Learning Outcomes
 
 -> Improved understanding of React Hooks
