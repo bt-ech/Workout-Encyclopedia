@@ -77,13 +77,17 @@ The app will run on:
 ## 📸 Screenshots
 
 ### 🏠 Home Page
+
 ![Home Page](screenshots/home.png)
 
 ### 💪 Back Workouts
+
 ![Back Workout](screenshots/workout-details.png)
 
 ### 📋 Exercise Details
+
 ![Exercise Details](screenshots/workout-description.png)
+
 
 🎯 Learning Outcomes
 
